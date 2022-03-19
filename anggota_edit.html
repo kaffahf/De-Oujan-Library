@@ -1,0 +1,125 @@
+
+
+<!DOCTYPE html> 
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>De Oujan Library</title>
+        <link rel="stylesheet" type="text/css" href="images/style.css" />
+    </head>
+    <body>
+        <!-- menu main sebagai div Utama -->
+        <div id="main">
+            <!-- menu Header -->
+            <div id="header">
+                <img src="images/header2.jpg" />
+            </div>
+            <!-- menu Header -->
+            <div id="menu-atas">
+                <div id="menu_user">
+                    <span>Kelompok 5</span>
+                </div>
+                <div id="menu_tanggal" align="right">
+                    <span>Kamis, 23 Mei 2019         </span>
+                </div>
+            </div>
+            <div>
+                <!-- menu Kiri -->
+                <div id="menu-kiri">
+                    <div id="bg_menu">Menu Utama
+                    </div>
+                    <div id="left_menu">
+                        <a href="index.html" class="menu">&raquo; Home </a>
+                        <br />
+                        <a href="buku.html" class="menu">&raquo; Buku </a>
+                        <br />
+                        <a href="anggota.html" class="menu">&raquo; Anggota </a>
+                        <br />
+                        <a href="transaksi.html" class="menu">&raquo; Transaksi </a>
+                        <br />
+                        <a href="laporan.html" class="menu">&raquo; Laporan </a>
+                        <br />
+                        <a href="user.html" class="menu">&raquo; User </a>
+                        <br />
+                    </div>
+                </div>
+                <!-- menu tengah -->
+                <div id="menu-tengah">
+                    <div id="bg_menu">Data Anggota
+                    </div>
+                    <div id="content_menu">
+                        <div id="menu_header">
+                            <table width="100%" height="100%" style="background-color:#9cc;">
+                                <tr>
+                                    <td align="center">Edit Anggota</td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="table_input">
+                            <form action="anggota.html" method="post">
+                                <input type="hidden" name="nim" size="50%" value="2018804045"></td>
+                                <table width="100%" height="80%" align="center" cellspacing="0" cellpadding="5">
+                                    <tbody>
+                                        <tr>
+                                            <td width="25%" align="right">NIM</td>
+                                            <td><input type="text" name="nim1" size="50%" value="12184250"></td>
+                                        </tr>
+                                        <tr>
+                                            <td width="20%" align="right">Nama Lengkap</td>
+                                            <td><input type="text" name="nama" size="50%" value="Devira Bella Ambika"></td>
+                                        </tr>
+                                        <tr>
+                                            <td width="20%" align="right">Tempat Lahir</td>
+                                            <td><input type="text" name="tempat_lahir" size="50%" value="Jakarta"></td>
+                                        </tr>
+                                        <tr>
+                                            <td width="20%" align="right">Tanggal Lahir</td>
+                                            <td><input type="date" name="tgl_lahir" value="1998-08-02"></td>
+                                        </tr>
+                                        <tr>
+                                            <td width="20%" align="right">Jenis Kelamin</td>
+                                            <td>                    <input type="radio" name="jk" value="L" checked />Laki-Laki</label>
+                                                <input type="radio" name="jk" value="P" />Perempuan</label>
+                                                </select>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td width="20%" align="right">Prodi</td>
+                                            <td>
+                                                <select name="prodi">
+                                                    <option>Pilih Prodi</option>
+                                                    <option value="Sistem Informasi" selected>Sistem Informasi</option>
+                                                    <option value="Komputer Akuntansi"  >Komputer Akuntansi</option>
+                                                    <option value="Managemen" >Managemen</option>
+                                                </select>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td width="20%" align="right">Tahun Masuk</td>
+                                            <td><input type="text" name="thn_masuk" size="50%" value="2018"></td>
+                                        </tr>
+                                        <tr>
+                                            <td></td>
+                                            <td><input type="submit" value="Simpan"></td>
+                                        </tr>
+                                        <tr>
+                                            <td><a href="anggota.html">Kembali</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- menu Merapikan div content -->
+            <div class="clear">
+            </div>
+            <!-- menu Footer -->
+            <div id="footer">
+                <center>&copy; 2019. Tugas Web Programming.</center>
+            </div>
+        </div>
+    </body>
+</html>
+

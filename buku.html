@@ -1,0 +1,186 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+      <title>De Oujan Library </title>
+      <link rel="stylesheet" type="text/css" href="images/style.css" />
+   </head>
+   <body>
+      <!-- menu main sebagai div Utama -->
+      <div id="main">
+         <!-- menu Header -->
+         <div id="header">
+            <img src="images/header2.jpg" />
+         </div>
+         <!-- menu Header -->
+         <div id="menu-atas">
+            <div id="menu_user">
+               <span>Kelompok 5</span>
+            </div>
+            <div id="menu_tanggal" align="right">
+               <span>Kamis, 23 Mei 2019         </span>
+            </div>
+         </div>
+         <div>
+            <!-- menu Kiri -->
+            <div id="menu-kiri">
+               <div id="bg_menu">Menu Utama
+               </div>
+               <div id="left_menu">
+                  <a href="index.html" class="menu">&raquo; Home </a>
+                  <br />
+                  <a href="buku.html" class="menu">&raquo; Buku </a>
+                  <br />
+                  <a href="anggota.html" class="menu">&raquo; Anggota </a>
+                  <br />
+                  <a href="transaksi.html" class="menu">&raquo; Transaksi </a>
+                  <br />
+                  <a href="laporan.html" class="menu">&raquo; Laporan </a>
+                  <br />
+                  <a href="user.html" class="menu">&raquo; User </a>
+                  <br />
+               </div>
+            </div>
+            <!-- menu tengah -->
+            <div id="menu-tengah">
+               <div id="bg_menu">Data Buku
+               </div>
+               <div id="content_menu">
+                  <div id="menu_header">
+                     <form action="buku.html" method="post">
+                        <table width="100%" height="100%" style="border:1px solid #9cc;">
+                           <tr>
+                              <td width="50%"><a href="buku_input.html">Input Buku</a></td>
+                              <td width="50%" align="right">
+                                 <input type="text" name="cari" size="30" placeholder="Judul Buku, Pengarang">
+                              </td>
+                              <td>
+                                 <input type="submit" id="submit" value="cari">
+                              </td>
+                           </tr>
+                        </table>
+                     </form>
+                  </div>
+                  <div class="zebra-table">
+                     <table width="100%" height="100%" align="center" cellspacing="0" cellpadding="5">
+                        <thead align="center">
+                           <tr>
+                              <th align="center" width="5%">No</th>
+                              <th width="30%">Judul Buku</th>
+                              <th width="20%">Pengarang</th>
+                              <th width="15%">Penerbit</th>
+                              <th width="15%">Jumlah</th>
+                              <th width="8%">Edit</th>
+                              <th width="8%">Hapus</th>
+                           </tr>
+                        </thead>
+                        <tbody>
+                           <tr>
+                              <td align="center">1</td>
+                              <td><a href="buku_detail.html" class="detil">Sherlock Holmes</a></td>
+                              <td align="center">Sir Arthur Conan Doyle</td>
+                              <td align="center">Shira Media</td>
+                              <td align="center">2</td>
+                              <td align="center">
+                                 <a href="buku_edit.html"><img src="images/edit.png" / width="15px" height="15px"></a>
+                              </td>
+                              <td align="center">
+                                 <a href="#" onclick="return confirm('Anda yakin ingin menghapus data buku Sherlock Holmes ?')"><img src="images/delete.png" / width="15px" height="15px"></a>
+                              </td>
+                           </tr>
+                        <tbody>
+                           <tr>
+                              <td align="center">2</td>
+                              <td><a href="buku_detail.html" class="detil">Negeri Para Bedebah</a></td>
+                              <td align="center">Tere Liye</td>
+                              <td align="center">Tere Liye</td>
+                              <td align="center">3</td>
+                              <td align="center">
+                                 <a href="buku_edit.html"><img src="images/edit.png" / width="15px" height="15px"></a>
+                              </td>
+                              <td align="center">
+                                 <a href="#" onclick="return confirm('Anda yakin ingin menghapus data buku Negeri Para Bedebah ?')"><img src="images/delete.png" / width="15px" height="15px"></a>
+                              </td>
+                           </tr>
+                        <tbody>
+                           <tr>
+                              <td align="center">3</td>
+                              <td><a href="buku_detail.html" class="detil">The Lord Of The Ring</a></td>
+                              <td align="center">J.R.R Tolkien</td>
+                              <td align="center">-</td>
+                              <td align="center">2</td>
+                              <td align="center">
+                                 <a href="buku_edit.html"><img src="images/edit.png" / width="15px" height="15px"></a>
+                              </td>
+                              <td align="center">
+                                 <a href="#" onclick="return confirm('Anda yakin ingin menghapus data buku The Lord Of The Ring ?')"><img src="images/delete.png" / width="15px" height="15px"></a>
+                              </td>
+                           </tr>
+                        <tbody>
+                           <tr>
+                              <td align="center">4</td>
+                              <td><a href="buku_detail.html" class="detil">The Davinci Code</a></td>
+                              <td align="center">Dan Brown</td>
+                              <td align="center">Doubleday</td>
+                              <td align="center">1</td>
+                              <td align="center">
+                                 <a href="buku_edit.html"><img src="images/edit.png" / width="15px" height="15px"></a>
+                              </td>
+                              <td align="center">
+                                 <a href="#" onclick="return confirm('Anda yakin ingin menghapus data buku The Davinci Code ?')"><img src="images/delete.png" / width="15px" height="15px"></a>
+                              </td>
+                           </tr>
+                        <tbody>
+                           <tr>
+                              <td align="center">5</td>
+                              <td><a href="buku_detail.html" class="detil">Murder On The Orient Express</a></td>
+                              <td align="center">Agatha Christie</td>
+                              <td align="center">Collins Crime Club</td>
+                              <td align="center">5</td>
+                              <td align="center">
+                                 <a href="buku_edit.html"><img src="images/edit.png" / width="15px" height="15px"></a>
+                              </td>
+                              <td align="center">
+                                 <a href="#" onclick="return confirm('Anda yakin ingin menghapus data buku Murder On The Orient Express ?')"><img src="images/delete.png" / width="15px" height="15px"></a>
+                              </td>
+                           </tr>
+                        <tbody>
+                           <tr>
+                              <td align="center">6</td>  
+								<td><a href="buku_detail.html" class="detil">Harry Potter</a></td>
+								<td align="center">J.K Rowling</td>         
+								<td align="center">Bloomsburry Publishing</td>
+											  <td align="center">5</td>
+											  <td align="center">
+                                 <a href="buku_edit.html"><img src="images/edit.png" / width="15px" height="15px"></a>
+                              </td>
+                              <td align="center">
+                                 <a href="#" onclick="return confirm('Anda yakin ingin menghapus data buku Harry Potter  ?')"><img src="images/delete.png" / width="15px" height="15px"></a>
+                              </td>
+                           </tr>
+                        </tbody>
+                     </table>
+                  </div>
+                  <div id="menu_bottom">
+                     <table width="100%" style="border:0px solid #9cc;">
+                        <tr>
+                           <td width="50%">Jumlah : 6 buku</td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!-- menu Merapikan div content -->
+         <div class="clear">
+         </div>
+         <!-- menu Footer -->
+         <div id="footer">
+            <center>&copy; 2019. Tugas Web Programming.</center>
+         </div>
+      </div>
+   </body>
+</html>
+

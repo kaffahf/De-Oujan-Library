@@ -1,0 +1,125 @@
+
+
+<!DOCTYPE html> 
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>De Oujan Library</title>
+        <link rel="stylesheet" type="text/css" href="images/style.css" />
+    </head>
+    <body>
+        <!-- menu main sebagai div Utama -->
+        <div id="main">
+            <!-- menu Header -->
+            <div id="header">
+                <img src="images/header2.jpg" />
+            </div>
+            <!-- menu Header -->
+            <div id="menu-atas">
+                <div id="menu_user">
+                    <span>Kelompok 5</span>
+                </div>
+                <div id="menu_tanggal" align="right">
+                    <span>Kamis, 23 Mei 2019         </span>
+                </div>
+            </div>
+            <div>
+                <!-- menu Kiri -->
+                <div id="menu-kiri">
+                    <div id="bg_menu">Menu Utama
+                    </div>
+                    <div id="left_menu">
+                        <a href="index.html" class="menu">&raquo; Home </a>
+                        <br />
+                        <a href="buku.html" class="menu">&raquo; Buku </a>
+                        <br />
+                        <a href="anggota.html" class="menu">&raquo; Anggota </a>
+                        <br />
+                        <a href="transaksi.html" class="menu">&raquo; Transaksi </a>
+                        <br />
+                        <a href="laporan.html" class="menu">&raquo; Laporan </a>
+                        <br />
+                        <a href="user.html" class="menu">&raquo; User </a>
+                        <br />
+                    </div>
+                </div>
+                <!-- menu tengah -->
+                <div id="menu-tengah">
+                    <div id="bg_menu">Data Transaksi
+                    </div>
+                    <div id="content_menu">
+                        <div id="menu_header">
+                            <form action="transaksi.html" method="post">
+                                <table width="100%" height="100%" style="border:1px solid #9cc;">
+                                    <tr>
+                                        <td width="50%"><a href="transaksi_input.html">Input Transaksi</a></td>
+                                        <td width="50%" align="right"><input type="text" name="cari" size="30" placeholder="Nama Peminjam"></td>
+                                        <td><input type="submit" id="submit" value="cari"></td>
+                                    </tr>
+                                </table>
+                            </form>
+                        </div>
+                        <div class="zebra-table">
+                            <table width="100%" height="100%" align="center" cellspacing="0" cellpadding="5">
+                                <thead align="center">
+                                    <tr>
+                                        <th align="center" width="5%" >No</th>
+                                        <th width="25%">Judul Buku</th>
+                                        <th width="25%">Peminjam</th>
+                                        <th width="15%">Tgl Pinjam</th>
+                                        <th width="15%">Tgl Kembali</th>
+                                        <th width="10%">Terlambat</th>
+                                        <th width="10%">Kembali</th>
+                                        <th width="10%">Perpanjang</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td align="center">1</td>
+                                        <td>Sherlock Holmes</a></td>
+                                        <td>Devira Bella Ambika</td>
+                                        <td align="center">13-05-2019</td>
+                                        <td align="center">20-05-2019</td>
+                                        <td align="center">
+                                            <font color='red'>3 hari<br>(Rp 6000)</font>                
+                                        </td>
+                                        <td align="center"><a onClick="return confirm('Anda Yakin Ingin Mengembalikan Buku Ini?');" href="#">kembali</a></td>
+                                        <td align="center"><a onClick="return confirm('Anda Yakin Ingin Memperpanjang Buku Ini?');" href="#">perpanjang</a></td>
+                                    </tr>
+                                <tbody>
+                                    <tr>
+                                        <td align="center">2</td>
+                                        <td>Harry Potter</a></td>
+                                        <td>Albert</td>
+                                        <td align="center">15-05-2019</td>
+                                        <td align="center">22-05-2019</td>
+                                        <td align="center">
+                                            <font color='red'>1 hari<br>(Rp 2000)</font>                
+                                        </td>
+                                        <td align="center"><a onClick="return confirm('Anda Yakin Ingin Mengembalikan Buku Ini?');" href="#">kembali</a></td>
+                                        <td align="center"><a onClick="return confirm('Anda Yakin Ingin Memperpanjang Buku Ini?');" href="#">perpanjang</a></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div id="menu_bottom">
+                            <table width="100%" style="border:0px solid #9cc;">
+                                <tr>
+                                    <td width="50%">Jumlah : 2 Transaksi</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- menu Merapikan div content -->
+            <div class="clear">
+            </div>
+            <!-- menu Footer -->
+            <div id="footer">
+                <center>&copy; 2019. Tugas Web Programming.</center>
+            </div>
+        </div>
+    </body>
+</html>
+

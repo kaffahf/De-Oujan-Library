@@ -1,0 +1,159 @@
+
+
+<!DOCTYPE html> 
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>Arcade Library</title>
+        <link rel="stylesheet" type="text/css" href="images/style.css" />
+    </head>
+    <body>
+        <!-- menu main sebagai div Utama -->
+        <div id="main">
+            <!-- menu Header -->
+            <div id="header">
+                <img src="images/header2.jpg" />
+            </div>
+            <!-- menu Header -->
+            <div id="menu-atas">
+                <div id="menu_user">
+                    <span>Kelompok 5</span>
+                </div>
+                <div id="menu_tanggal" align="right">
+                    <span>Kamis, 23 Mei 2019         </span>
+                </div>
+            </div>
+            <div>
+                <!-- menu Kiri -->
+                <div id="menu-kiri">
+                    <div id="bg_menu">Menu Utama
+                    </div>
+                    <div id="left_menu">
+                        <a href="index.html" class="menu">&raquo; Home </a>
+                        <br />
+                        <a href="buku.html" class="menu">&raquo; Buku </a>
+                        <br />
+                        <a href="anggota.html" class="menu">&raquo; Anggota </a>
+                        <br />
+                        <a href="transaksi.html" class="menu">&raquo; Transaksi </a>
+                        <br />
+                        <a href="laporan.html" class="menu">&raquo; Laporan </a>
+                        <br />
+                        <a href="user.html" class="menu">&raquo; User </a>
+                        <br />
+                    </div>
+                </div>
+                <!-- menu tengah -->
+                <div id="menu-tengah">
+                    <div id="bg_menu">Data Anggota
+                    </div>
+                    <div id="content_menu">
+                        <div id="menu_header">
+                            <form action="anggota.html" method="post">
+                                <table width="100%" height="100%" style="border:1px solid #9cc;">
+                                    <tr>
+                                        <td width="50%"><a href="anggota_input.html">Input Anggota</a></td>
+                                        <td width="50%" align="right"><input type="text" name="cari" size="30" placeholder="NIM, Nama Anggota"></td>
+                                        <td><input type="submit" id="submit" value="cari"></td>
+                                    </tr>
+                                </table>
+                            </form>
+                        </div>
+                        <div class="zebra-table">
+                            <table width="100%" height="100%" align="center" cellspacing="0" cellpadding="5">
+                                <thead align="center">
+                                    <tr>
+                                        <th align="center" width="5%" >No</th>
+                                        <th width="25%">Nim</th>
+                                        <th width="20%">Nama</th>
+                                        <th width="20%">Prodi</th>
+                                        <th width="15%">Thn Masuk</th>
+                                        <th width="8%">Edit</th>
+                                        <th width="8%">Hapus</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td align="center">1</td>
+                                        <td ><a href="anggota_detail.html"class="detil">12184250</a></td>
+                                        <td >Devira Bella Ambika</td>
+                                        <td align="center">Sistem Informasi</td>
+                                        <td align="center">2018</td>
+                                        <td align="center"><a href="anggota_edit.html"><img src="images/edit.png"/ width="15px" height="15px"></a></td>
+                                        <td align="center"><a href="#" onclick="return confirm('Anda yakin ingin menghapus Anggota Devira Bella Ambika ?')"><img src="images/delete.png"/ width="15px" height="15px"></a></td>
+                                    </tr>
+                                <tbody>
+                                    <tr>
+                                        <td align="center">2</td>
+                                        <td ><a href="anggota_detail.html"class="detil">12183970</a></td>
+                                        <td >Kaffah Febriningrum</td>
+                                        <td align="center">Sistem Informasi</td>
+                                        <td align="center">2018</td>
+                                        <td align="center"><a href="anggota_edit.html"><img src="images/edit.png"/ width="15px" height="15px"></a></td>
+                                        <td align="center"><a href="#" onclick="return confirm('Anda yakin ingin menghapus Anggota Kaffah Febriningrum ?')"><img src="images/delete.png"/ width="15px" height="15px"></a></td>
+                                    </tr>
+                                <tbody>
+                                    <tr>
+                                        <td align="center">3</td>
+                                        <td ><a href="anggota_detail.html"class="detil">12184135</a></td>
+                                        <td >Adistya Putri Utami</td>
+                                        <td align="center">Sistem Informasi</td>
+                                        <td align="center">2018</td>
+                                        <td align="center"><a href="anggota_edit.html"><img src="images/edit.png"/ width="15px" height="15px"></a></td>
+                                        <td align="center"><a href="#" onclick="return confirm('Anda yakin ingin menghapus Anggota Adistya Putri Utami ?')"><img src="images/delete.png"/ width="15px" height="15px"></a></td>
+                                    </tr>
+                                <tbody>
+                                    <tr>
+                                        <td align="center">4</td>
+                                        <td ><a href="anggota_detail.html"class="detil">12184276</a></td>
+                                        <td >Mia Saras Monika</td>
+                                        <td align="center">Sistem Informasi</td>
+                                        <td align="center">2018</td>
+                                        <td align="center"><a href="anggota_edit.html"><img src="images/edit.png"/ width="15px" height="15px"></a></td>
+                                        <td align="center"><a href="#" onclick="return confirm('Anda yakin ingin menghapus Anggota Mia Saras Monika ?')"><img src="images/delete.png"/ width="15px" height="15px"></a></td>
+                                    </tr>
+									<tbody>
+                                    <tr>
+                                        <td align="center">5</td>
+                                        <td ><a href="anggota_detail.html"class="detil">12184444</a></td>
+                                        <td >Vira Oktaviani</td>
+                                        <td align="center">Sistem Informasi</td>
+                                        <td align="center">2018</td>
+                                        <td align="center"><a href="anggota_edit.html"><img src="images/edit.png"/ width="15px" height="15px"></a></td>
+                                        <td align="center"><a href="#" onclick="return confirm('Anda yakin ingin menghapus Anggota Vira Oktaviani ?')"><img src="images/delete.png"/ width="15px" height="15px"></a></td>
+                                    </tr>
+          							<tbody>
+                                    <tr>
+                                        <td align="center">6</td>
+                                        <td ><a href="anggota_detail.html"class="detil">12184504</a></td>
+                                        <td >Jodi Setiawan</td>
+                                        <td align="center">Sistem Informasi</td>
+                                        <td align="center">2018</td>
+                                        <td align="center"><a href="anggota_edit.html"><img src="images/edit.png"/ width="15px" height="15px"></a></td>
+                                        <td align="center"><a href="#" onclick="return confirm('Anda yakin ingin menghapus Anggota Jodi Setiawan ?')"><img src="images/delete.png"/ width="15px" height="15px"></a></td>
+                                    </tr>
+                                </tbody>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div id="menu_bottom">
+                            <table width="100%" style="border:0px solid #9cc;">
+                                <tr>
+                                    <td width="50%">Jumlah : 6 Anggota</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- menu Merapikan div content -->
+            <div class="clear">
+            </div>
+            <!-- menu Footer -->
+            <div id="footer">
+                <center>&copy; 2019. Tugas Web Programming.</center>
+            </div>
+        </div>
+    </body>
+</html>
+
